@@ -1,1 +1,8 @@
-librerías 
+torch==2.2.1
+torchvision==0.17.1
+timm==0.9.16
+matplotlib==3.8.3
+seaborn==0.13.2
+scikit-learn== 1.4.1.post1
+grac-cam==1.5.0
+opencv-python==4.9.0.80
