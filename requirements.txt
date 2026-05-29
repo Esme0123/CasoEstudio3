@@ -1,9 +1,6 @@
-numpy==1.26.4
-torch==2.2.1
-torchvision==0.17.1
-timm==0.9.16
-matplotlib==3.8.3
-seaborn==0.13.2
-scikit-learn==1.4.1.post1
-grad-cam==1.5.0
-opencv-python==4.9.0.80
+# Solo paquetes que NO vienen preinstalados en Google Colab.
+# torch, torchvision, numpy, matplotlib, seaborn, scikit-learn y opencv ya vienen
+# en Colab y son mutuamente compatibles; NO los fijamos para evitar conflictos de
+# versiones y reinicios del entorno. Aquí solo añadimos lo que falta.
+timm>=1.0.0
+grad-cam>=1.5.0
