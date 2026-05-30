@@ -1,4 +1,52 @@
-# Archivos innecesarios
+# ===== Archivos del sistema operativo =====
+.DS_Store
+Thumbs.db
 
-# Informe y recursos locales (no subir al repo)
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
 
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Dataset descargado de Kaggle y su comprimido (no subir al repo: ~233 MB) =====
+/dataset/
+*.zip
+
+# ===== Pesos entrenados (se generan con los notebooks o scripts/train_local.py) =====
+*.pth
+*.pt
+*.onnx
+
+# ===== App: backend (FastAPI) =====
+app/backend/.venv/
+app/backend/models/*.pth
+
+# ===== App: Flutter / Dart =====
+app/mobile-app/build/
+app/mobile-app/.dart_tool/
+app/mobile-app/.flutter-plugins
+app/mobile-app/.flutter-plugins-dependencies
+app/mobile-app/android/.gradle/
+app/mobile-app/android/local.properties
+app/mobile-app/android/gradlew
+app/mobile-app/android/gradlew.bat
+app/mobile-app/android/gradle/wrapper/gradle-wrapper.jar
+app/mobile-app/android/app/src/main/java/
+app/mobile-app/ios/Flutter/Generated.xcconfig
+app/mobile-app/ios/Flutter/ephemeral/
+app/mobile-app/ios/Flutter/flutter_export_environment.sh
+app/mobile-app/ios/Runner/GeneratedPluginRegistrant.*
+app/mobile-app/linux/flutter/ephemeral/
+app/mobile-app/macos/Flutter/ephemeral/
+app/mobile-app/windows/flutter/ephemeral/
+
+# ===== IDEs =====
+.idea/
+.vscode/
+*.iml

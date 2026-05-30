@@ -1,0 +1,4 @@
+# Coloca aquí los pesos entrenados:
+#   baseline_cnn.pth     -> modelo BaselineCNN
+#   mobilenet_v4.pth     -> modelo MobileNet (transfer learning)
+# Los nombres se pueden cambiar en app/config.py (o con APP_BASELINE_WEIGHTS / APP_MOBILENET_WEIGHTS).

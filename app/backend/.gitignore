@@ -1,0 +1,15 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Pesos de modelos (pueden ser pesados)
+models/*.pth
+models/*.pt
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Variables de entorno locales
+.env
