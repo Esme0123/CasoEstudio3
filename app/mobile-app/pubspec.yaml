@@ -1,0 +1,35 @@
+name: mobile_app
+description: "FisuraScan — Detección de grietas en superficies con IA."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # Estado de la aplicación
+  provider: ^6.1.2
+  # Consumo del backend FastAPI
+  http: ^1.2.2
+  # Tipos MIME (MediaType) para los envíos multipart
+  http_parser: ^4.0.2
+  # Selección de imágenes (cámara / galería)
+  image_picker: ^1.1.2
+  # Persistencia ligera (URL del servidor + historial)
+  shared_preferences: ^2.3.2
+  # Formato de fechas en el historial
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
